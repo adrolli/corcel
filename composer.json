@@ -9,7 +9,7 @@
             "name": "Junior Grossi",
             "email": "juniorgro@gmail.com",
             "homepage": "http://jgrossi.com"
-        }
+        },
         {
             "name": "Alf Drollinger",
             "email": "alf@drollinger.info",
@@ -43,6 +43,11 @@
             "providers": [
                 "Corcel\\Laravel\\CorcelServiceProvider"
             ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/thanks": true
         }
     }
 }
